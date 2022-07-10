@@ -1,0 +1,23 @@
+{
+    "ts-node": {
+        "esm": true,
+        "transpileOnly": true
+    },
+    "compilerOptions": {
+        "target": "es6",
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
